@@ -1,0 +1,7 @@
+env_name: 'LunarLander-v2'
+env_parameters:
+  continuous: false
+  gravity: -9.81
+  enable_wind: false
+  wind_power: 15
+  turbulence_power: 1.5

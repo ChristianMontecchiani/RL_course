@@ -1,0 +1,173 @@
+2022-11-17 17:27:37,680 INFO    StreamThr :78332 [internal.py:wandb_internal():90] W&B internal server running at pid: 78332, started at: 2022-11-17 17:27:37.679859
+2022-11-17 17:27:37,681 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: status
+2022-11-17 17:27:37,682 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: status
+2022-11-17 17:27:37,682 INFO    WriterThread:78332 [datastore.py:open_for_write():75] open: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/run-nc7kef4t.wandb
+2022-11-17 17:27:37,682 DEBUG   SenderThread:78332 [sender.py:send():302] send: header
+2022-11-17 17:27:37,683 DEBUG   SenderThread:78332 [sender.py:send():302] send: run
+2022-11-17 17:27:38,295 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: check_version
+2022-11-17 17:27:38,296 INFO    SenderThread:78332 [dir_watcher.py:__init__():216] watching files in: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files
+2022-11-17 17:27:38,296 INFO    SenderThread:78332 [sender.py:_start_run_threads():913] run started: nc7kef4t with start time 1668698857.656241
+2022-11-17 17:27:38,296 DEBUG   SenderThread:78332 [sender.py:send():302] send: summary
+2022-11-17 17:27:38,296 INFO    SenderThread:78332 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-17 17:27:38,296 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: check_version
+2022-11-17 17:27:38,340 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: run_start
+2022-11-17 17:27:38,345 DEBUG   HandlerThread:78332 [meta.py:__init__():35] meta init
+2022-11-17 17:27:38,345 DEBUG   HandlerThread:78332 [meta.py:__init__():50] meta init done
+2022-11-17 17:27:38,345 DEBUG   HandlerThread:78332 [meta.py:probe():216] probe
+2022-11-17 17:27:38,351 DEBUG   HandlerThread:78332 [meta.py:_setup_git():206] setup git
+2022-11-17 17:27:38,362 DEBUG   HandlerThread:78332 [meta.py:_setup_git():213] setup git done
+2022-11-17 17:27:38,362 DEBUG   HandlerThread:78332 [meta.py:_save_pip():54] save pip
+2022-11-17 17:27:38,362 DEBUG   HandlerThread:78332 [meta.py:_save_pip():68] save pip done
+2022-11-17 17:27:38,362 DEBUG   HandlerThread:78332 [meta.py:probe():254] probe done
+2022-11-17 17:27:38,365 DEBUG   SenderThread:78332 [sender.py:send():302] send: files
+2022-11-17 17:27:38,365 INFO    SenderThread:78332 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-11-17 17:27:38,369 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-17 17:27:38,369 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: stop_status
+2022-11-17 17:27:38,572 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:38,702 DEBUG   SenderThread:78332 [sender.py:send():302] send: telemetry
+2022-11-17 17:27:38,703 DEBUG   SenderThread:78332 [sender.py:send():302] send: exit
+2022-11-17 17:27:38,703 INFO    SenderThread:78332 [sender.py:send_exit():438] handling exit code: 1
+2022-11-17 17:27:38,703 INFO    SenderThread:78332 [sender.py:send_exit():440] handling runtime: 0
+2022-11-17 17:27:38,703 INFO    SenderThread:78332 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-17 17:27:38,704 INFO    SenderThread:78332 [sender.py:send_exit():446] send defer
+2022-11-17 17:27:38,704 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:38,704 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:38,704 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 0
+2022-11-17 17:27:38,704 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:38,704 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-11-17 17:27:38,704 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 1
+2022-11-17 17:27:38,704 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:38,704 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 1
+2022-11-17 17:27:38,793 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:38,793 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-11-17 17:27:38,793 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 2
+2022-11-17 17:27:38,793 DEBUG   SenderThread:78332 [sender.py:send():302] send: stats
+2022-11-17 17:27:38,793 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:38,793 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 2
+2022-11-17 17:27:38,794 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:38,794 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-11-17 17:27:38,794 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 3
+2022-11-17 17:27:38,794 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:38,794 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 3
+2022-11-17 17:27:38,794 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:38,794 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-11-17 17:27:38,794 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 4
+2022-11-17 17:27:38,794 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:38,794 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 4
+2022-11-17 17:27:38,794 DEBUG   SenderThread:78332 [sender.py:send():302] send: summary
+2022-11-17 17:27:38,795 INFO    SenderThread:78332 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-17 17:27:38,795 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:38,795 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-11-17 17:27:38,795 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 5
+2022-11-17 17:27:38,795 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:38,795 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 5
+2022-11-17 17:27:38,795 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:38,795 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-11-17 17:27:38,805 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:39,005 INFO    Thread-16 :78332 [upload_job.py:push():138] Uploaded file /tmp/tmpxyte_5qhwandb/3ubgh712-wandb-metadata.json
+2022-11-17 17:27:39,009 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 6
+2022-11-17 17:27:39,009 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:39,010 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:39,010 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 6
+2022-11-17 17:27:39,010 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:39,010 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-11-17 17:27:39,110 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:39,297 INFO    Thread-12 :78332 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/config.yaml
+2022-11-17 17:27:39,297 INFO    Thread-12 :78332 [dir_watcher.py:_on_file_created():275] file/dir created: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/output.log
+2022-11-17 17:27:39,297 INFO    Thread-12 :78332 [dir_watcher.py:_on_file_created():275] file/dir created: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/requirements.txt
+2022-11-17 17:27:39,297 INFO    Thread-12 :78332 [dir_watcher.py:_on_file_created():275] file/dir created: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/wandb-metadata.json
+2022-11-17 17:27:39,297 INFO    Thread-12 :78332 [dir_watcher.py:_on_file_created():275] file/dir created: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/wandb-summary.json
+2022-11-17 17:27:40,708 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 7
+2022-11-17 17:27:40,708 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:40,709 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:40,709 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 7
+2022-11-17 17:27:40,709 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:40,709 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-11-17 17:27:40,709 INFO    SenderThread:78332 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-17 17:27:40,809 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:41,296 INFO    Thread-12 :78332 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/output.log
+2022-11-17 17:27:41,297 INFO    SenderThread:78332 [dir_watcher.py:finish():392] scan: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files
+2022-11-17 17:27:41,297 INFO    SenderThread:78332 [dir_watcher.py:finish():406] scan save: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/wandb-metadata.json wandb-metadata.json
+2022-11-17 17:27:41,297 INFO    SenderThread:78332 [dir_watcher.py:finish():406] scan save: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/wandb-summary.json wandb-summary.json
+2022-11-17 17:27:41,297 INFO    SenderThread:78332 [dir_watcher.py:finish():406] scan save: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/requirements.txt requirements.txt
+2022-11-17 17:27:41,297 INFO    SenderThread:78332 [dir_watcher.py:finish():406] scan save: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/config.yaml config.yaml
+2022-11-17 17:27:41,297 INFO    SenderThread:78332 [dir_watcher.py:finish():406] scan save: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/output.log output.log
+2022-11-17 17:27:41,297 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 8
+2022-11-17 17:27:41,298 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:41,298 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:41,300 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 8
+2022-11-17 17:27:41,302 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:41,302 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-11-17 17:27:41,303 INFO    SenderThread:78332 [file_pusher.py:finish():171] shutting down file pusher
+2022-11-17 17:27:41,402 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:41,402 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:41,503 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:41,504 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:41,605 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:41,605 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:41,706 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:41,706 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:41,807 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:41,807 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:41,908 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:41,908 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,009 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,009 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,110 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,110 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,211 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,211 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,312 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,312 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,363 INFO    Thread-20 :78332 [upload_job.py:push():138] Uploaded file /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/output.log
+2022-11-17 17:27:42,364 INFO    Thread-19 :78332 [upload_job.py:push():138] Uploaded file /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/config.yaml
+2022-11-17 17:27:42,365 INFO    Thread-17 :78332 [upload_job.py:push():138] Uploaded file /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/wandb-summary.json
+2022-11-17 17:27:42,413 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,413 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,514 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,515 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,616 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,616 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,717 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,718 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,819 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,819 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:42,829 INFO    Thread-18 :78332 [upload_job.py:push():138] Uploaded file /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/files/requirements.txt
+2022-11-17 17:27:42,920 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:42,920 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:43,021 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:43,021 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:43,030 INFO    Thread-11 :78332 [sender.py:transition_state():459] send defer: 9
+2022-11-17 17:27:43,030 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:43,030 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 9
+2022-11-17 17:27:43,030 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:43,030 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-11-17 17:27:43,122 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:44,039 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 10
+2022-11-17 17:27:44,040 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:44,040 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:44,040 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 10
+2022-11-17 17:27:44,041 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:44,041 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-11-17 17:27:44,041 INFO    SenderThread:78332 [sender.py:transition_state():459] send defer: 11
+2022-11-17 17:27:44,041 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: defer
+2022-11-17 17:27:44,041 DEBUG   SenderThread:78332 [sender.py:send():302] send: final
+2022-11-17 17:27:44,041 INFO    HandlerThread:78332 [handler.py:handle_request_defer():164] handle defer: 11
+2022-11-17 17:27:44,041 DEBUG   SenderThread:78332 [sender.py:send():302] send: footer
+2022-11-17 17:27:44,041 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: defer
+2022-11-17 17:27:44,041 INFO    SenderThread:78332 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-11-17 17:27:44,141 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-17 17:27:44,142 DEBUG   SenderThread:78332 [sender.py:send_request():316] send_request: poll_exit
+2022-11-17 17:27:44,142 INFO    SenderThread:78332 [file_pusher.py:join():176] waiting for file pusher
+2022-11-17 17:27:44,671 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: sampled_history
+2022-11-17 17:27:44,672 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: get_summary
+2022-11-17 17:27:44,672 INFO    MainThread:78332 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-11-17 17:27:44,672 INFO    MainThread:78332 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-11-17 17:27:44,672 INFO    MainThread:78332 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-11-17 17:27:44,672 DEBUG   HandlerThread:78332 [handler.py:handle_request():141] handle_request: shutdown
+2022-11-17 17:27:44,673 INFO    HandlerThread:78332 [handler.py:finish():810] shutting down handler
+2022-11-17 17:27:45,041 INFO    WriterThread:78332 [datastore.py:close():279] close: /home/christian/Desktop/Aalto_Uni/Reinforcement_Learning/rl_course/proj/wandb/run-20221117_172737-nc7kef4t/run-nc7kef4t.wandb
+2022-11-17 17:27:45,570 INFO    SenderThread:78332 [sender.py:finish():1312] shutting down sender
+2022-11-17 17:27:45,571 INFO    SenderThread:78332 [file_pusher.py:finish():171] shutting down file pusher
+2022-11-17 17:27:45,571 INFO    SenderThread:78332 [file_pusher.py:join():176] waiting for file pusher
+2022-11-17 17:27:45,675 INFO    MainThread:78332 [internal.py:handle_exit():80] Internal process exited
