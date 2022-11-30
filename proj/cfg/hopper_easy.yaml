@@ -1,0 +1,45 @@
+env_name: 'Hopper-v2'
+env_parameters:
+
+defaults:
+    - _self_
+    - override hydra/hydra_logging: disabled  
+    - override hydra/job_logging: disabled 
+ 
+seed: 408
+exp_name: actor_critic_hopper
+run_id: ??? # decided during execution
+
+testing: false
+model_path: default
+
+save_video: false
+save_logging: true
+save_model: true
+use_wandb: true
+silent: false
+ 
+
+# train_episodes: 20000
+# gamma: 0.99
+# lr: 5e-5
+# batch_size: 100
+# buffer_size: 1e6
+
+# env_name: HalfCheetah-v4
+# agent_name: ddpg    
+
+train_episodes: 30000
+gamma: 0.99
+lr: 3e-4
+tau: 0.005
+batch_size: 256
+buffer_size: 1e6
+
+run_suffix: 0
+# ref: https://stackoverflow.com/questions/65104134/disable-file-output-of-hydra
+hydra:  
+    output_subdir: null  
+    run:  
+        dir: .
+

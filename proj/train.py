@@ -13,8 +13,8 @@ warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 #from proj.actor_critic import PG
-#from make_env import create_env
-#from ddpg import DDPG
+from make_env import create_env
+from ddpg import DDPG
 from common import helper as h
 from common import logger as logger
 
@@ -37,9 +37,13 @@ def train(agent, env, max_episode_steps=1000):
         next_obs, reward, done, _ = env.step(to_numpy(action))
 
         # Store action's outcome (so that the agent can improve its policy)
-        if isinstance(agent, PG):
-            done_bool = done
-            agent.record(obs, act_logprob, reward, done_bool, next_obs)
+        # if isinstance(agent, PG):
+        #     done_bool = done
+        #     agent.record(obs, act_logprob, reward, done_bool, next_obs)
+        if isinstance(agent, DDPG):
+            # ignore the time truncated terminal signal
+            done_bool = float(done) if episode_timesteps < max_episode_steps else 0 
+            agent.record(obs, action, next_obs, reward, done_bool)
         # elif isinstance(agent, DDPG):
         #     # ignore the time truncated terminal signal
         #     done_bool = float(done) if episode_timesteps < max_episode_steps else 0 
@@ -131,8 +135,9 @@ def main(cfg):
     action_dim = env.action_space.shape[0]
     max_action = env.action_space.high[0]
     # init agent
-    if cfg.agent_name == "actor_critic":
-        agent = PG(state_shape[0], action_dim, cfg.lr, cfg.gamma)
+    #if cfg.agent_name == "actor_critic":
+        #agent = PG(state_shape[0], action_dim, cfg.lr, cfg.gamma)
+    agent = DDPG(state_shape, action_dim, max_action, cfg.lr, cfg.gamma, cfg.tau, cfg.batch_size, cfg.buffer_size)
     # else: # ddpg
     #     agent = DDPG(state_shape, action_dim, max_action,
     #                 cfg.lr, cfg.gamma, cfg.tau, cfg.batch_size, cfg.buffer_size)
