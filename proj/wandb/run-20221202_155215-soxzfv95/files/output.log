@@ -1,0 +1,8 @@
+
+(24,) 4 1.0
+Error executing job with overrides: ['env_name=bipedalwalker', 'agent_name=ddpg']
+Traceback (most recent call last):
+  File "train.py", line 145, in main
+    agent = DDPG(state_shape, action_dim, max_action,
+TypeError: __init__() takes from 8 to 9 positional arguments but 10 were given
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

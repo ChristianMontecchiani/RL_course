@@ -1,0 +1,10 @@
+
+(8,) 2 1.0
+Error executing job with overrides: ['env_name=lunarlander', 'file_name=lunarlander_continuous_easy']
+Traceback (most recent call last):
+  File "train.py", line 145, in main
+    if cfg.agent_name == "pg_ac":
+omegaconf.errors.ConfigAttributeError: Key 'agent_name' is not in struct
+    full_key: agent_name
+    object_type=dict
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

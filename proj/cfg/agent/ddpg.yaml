@@ -1,0 +1,9 @@
+# @package _global_
+agent_name: ddpg    
+
+train_episodes: 2000
+gamma: 0.99
+lr: 5e-5
+tau: 0.005
+batch_size: 256
+buffer_size: 1e6

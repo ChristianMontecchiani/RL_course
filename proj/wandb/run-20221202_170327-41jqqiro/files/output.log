@@ -1,0 +1,91 @@
+(8,) 2 1.0
+{'ep': 0, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 87, 'ep_reward': -181.94281740362234}
+{'ep': 100, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 102, 'ep_reward': -172.03542883691847}
+{'ep': 200, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 83, 'ep_reward': -212.55497146715646}
+{'ep': 300, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 140, 'ep_reward': -303.09757433708484}
+{'ep': 400, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 140, 'ep_reward': -81.9791133606256}
+{'ep': 500, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 230, 'ep_reward': -280.368188670678}
+{'ep': 600, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 210, 'ep_reward': -260.84566439212506}
+{'ep': 700, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 155, 'ep_reward': -54.34677346381469}
+{'ep': 800, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 72, 'ep_reward': -49.86991205467465}
+{'ep': 900, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 176, 'ep_reward': -65.11278701713574}
+{'ep': 1000, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 103, 'ep_reward': -52.682026500535294}
+{'ep': 1100, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 154, 'ep_reward': -5.295034075313367}
+{'ep': 1200, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 167, 'ep_reward': -26.956527501387143}
+{'ep': 1300, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 204, 'ep_reward': -19.664669072521463}
+{'ep': 1400, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 195, 'ep_reward': -80.79614637640834}
+{'ep': 1500, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': 8.062125999207739}
+{'ep': 1600, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 329, 'ep_reward': -97.02192121069868}
+{'ep': 1700, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -33.68098681063775}
+{'ep': 1800, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -53.43975612076824}
+{'ep': 1900, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -63.43237392963724}
+{'ep': 2000, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -71.61929559693311}
+{'ep': 2100, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -40.359059448073204}
+Traceback (most recent call last):
+  File "train.py", line 183, in <module>
+    main()
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "train.py", line 156, in main
+    train_info = train(agent, env)
+  File "train.py", line 38, in train
+    action, act_logprob = agent.get_action(obs)
+  File "/m/home/home7/77/montecc1/data/Desktop/rl_course/proj/agents/pg.py", line 132, in get_action
+    dist = self.policy.forward(x)
+  File "/m/home/home7/77/montecc1/data/Desktop/rl_course/proj/agents/pg.py", line 44, in forward
+    action_mean = self.actor_mean(state)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 183, in <module>
+    main()
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "train.py", line 156, in main
+    train_info = train(agent, env)
+  File "train.py", line 38, in train
+    action, act_logprob = agent.get_action(obs)
+  File "/m/home/home7/77/montecc1/data/Desktop/rl_course/proj/agents/pg.py", line 132, in get_action
+    dist = self.policy.forward(x)
+  File "/m/home/home7/77/montecc1/data/Desktop/rl_course/proj/agents/pg.py", line 44, in forward
+    action_mean = self.actor_mean(state)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

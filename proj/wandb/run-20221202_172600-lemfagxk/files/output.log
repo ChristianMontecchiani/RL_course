@@ -1,0 +1,87 @@
+(8,) 2 1.0
+{'ep': 0, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 87, 'ep_reward': -181.94281740362234}
+{'ep': 100, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 75, 'ep_reward': -52.455337553576456}
+{'ep': 200, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 175, 'ep_reward': -289.2639348949956}
+{'ep': 300, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 421, 'ep_reward': -275.4848766534481}
+{'ep': 400, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 205, 'ep_reward': -74.19288281255665}
+{'ep': 500, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 86, 'ep_reward': -46.097912760754014}
+{'ep': 600, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 151, 'ep_reward': -29.810754078612916}
+{'ep': 700, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -39.861264225891155}
+{'ep': 800, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -4.171332142344175}
+{'ep': 900, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -0.7932715868082134}
+{'ep': 1000, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -99.33878076578681}
+{'ep': 1100, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -45.98299093841555}
+{'ep': 1200, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 240, 'ep_reward': -52.456967182585224}
+{'ep': 1300, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -8.173142495717507}
+{'ep': 1400, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 147, 'ep_reward': 44.78018575018095}
+{'ep': 1500, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 211, 'ep_reward': 13.504044379088725}
+{'ep': 1600, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': -47.33567376357939}
+{'ep': 1700, 'logstd': array([[0., 0.]], dtype=float32), 'timesteps': 1000, 'ep_reward': 20.377011010759098}
+Traceback (most recent call last):
+  File "train.py", line 183, in <module>
+    main()
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "train.py", line 156, in main
+    train_info = train(agent, env)
+  File "train.py", line 41, in train
+    next_obs, reward, done, _ = env.step(to_numpy(action))
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/wrappers/time_limit.py", line 60, in step
+    self.env.step(action),
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/wrappers/order_enforcing.py", line 37, in step
+    return self.env.step(action)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/wrappers/step_api_compatibility.py", line 52, in step
+    step_returns = self.env.step(action)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/wrappers/env_checker.py", line 39, in step
+    return self.env.step(action)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 555, in step
+    self.world.Step(1.0 / FPS, 6 * 30, 2 * 30)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 60, in BeginContact
+    def BeginContact(self, contact):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 183, in <module>
+    main()
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/main.py", line 90, in decorated_main
+    _run_hydra(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 389, in _run_hydra
+    _run_app(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 452, in _run_app
+    run_and_report(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 213, in run_and_report
+    return func()
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/utils.py", line 453, in <lambda>
+    lambda: hydra.run(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "train.py", line 156, in main
+    train_info = train(agent, env)
+  File "train.py", line 41, in train
+    next_obs, reward, done, _ = env.step(to_numpy(action))
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/wrappers/time_limit.py", line 60, in step
+    self.env.step(action),
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/wrappers/order_enforcing.py", line 37, in step
+    return self.env.step(action)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/wrappers/step_api_compatibility.py", line 52, in step
+    step_returns = self.env.step(action)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/wrappers/env_checker.py", line 39, in step
+    return self.env.step(action)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 555, in step
+    self.world.Step(1.0 / FPS, 6 * 30, 2 * 30)
+  File "/u/77/montecc1/unix/.local/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 60, in BeginContact
+    def BeginContact(self, contact):
+KeyboardInterrupt

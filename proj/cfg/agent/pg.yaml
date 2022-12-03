@@ -1,0 +1,6 @@
+agent_name: pg
+run_id: ??? # decided during execution
+
+train_episodes: 1000
+gamma: 0.99
+lr: 2e-3

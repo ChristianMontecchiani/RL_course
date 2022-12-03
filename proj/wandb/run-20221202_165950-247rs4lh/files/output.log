@@ -1,0 +1,10 @@
+
+(24,) 4 1.0
+Error executing job with overrides: ['env_name=lunarlander', 'agent_name=pg']
+Traceback (most recent call last):
+  File "train.py", line 156, in main
+    train_info = train(agent, env)
+  File "train.py", line 46, in train
+    agent.record(obs, act_logprob, reward)
+TypeError: record() takes 3 positional arguments but 4 were given
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

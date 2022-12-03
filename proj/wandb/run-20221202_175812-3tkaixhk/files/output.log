@@ -1,0 +1,9 @@
+(8,) 2 1.0
+{'ep': 0, 'timesteps': 107, 'ep_reward': -753.0845522094431}
+{'ep': 100, 'timesteps': 110, 'ep_reward': -138.66883754551134}
+{'ep': 200, 'timesteps': 182, 'ep_reward': -137.41372333533968}
+{'ep': 300, 'timesteps': 395, 'ep_reward': -147.78867836279997}
+{'ep': 400, 'timesteps': 1000, 'ep_reward': -148.8408126257318}
+{'ep': 500, 'timesteps': 1000, 'ep_reward': -50.902011831728906}
+{'ep': 600, 'timesteps': 134, 'ep_reward': 44.80563494622979}
+{'ep': 700, 'timesteps': 1000, 'ep_reward': -18.443153807828985}

@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.14.0-1054-oem-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-12-02T15:03:28.062289",
+    "startedAt": "2022-12-02T15:03:27.591768",
+    "docker": null,
+    "gpu": "Quadro P2200",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "env_name=lunarlander",
+        "agent_name=pg",
+        "file_name=lunarlander_continuous_easy"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "spinelli",
+    "username": "montecc1",
+    "executable": "/usr/bin/python3"
+}

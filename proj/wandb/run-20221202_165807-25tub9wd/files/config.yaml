@@ -1,0 +1,70 @@
+wandb_version: 1
+
+_content:
+  desc: null
+  value:
+    agent_name: pg
+    batch_size: '256'
+    buffer_size: '1000000.0'
+    ent_coeff: '0.99'
+    env_name: lunarlander
+    exp_name: project
+    file_name: bipedalwalker_easy
+    gamma: '0.99'
+    lr: 5e-05
+    model_path: /m/home/home7/77/montecc1/data/Desktop/rl_course/proj/results/lunarlander/model/lunarlander_params.pt
+    normalize: 'False'
+    run_id: '1669993085'
+    run_suffix: '0'
+    save_logging: 'True'
+    save_model: 'True'
+    save_video: 'False'
+    seed: '408'
+    silent: 'False'
+    tau: '0.005'
+    testing: 'False'
+    train_episodes: '10000'
+    use_ou: 'False'
+    use_wandb: 'True'
+_flags_cache:
+  desc: null
+  value:
+    allow_objects: null
+    convert: null
+    readonly: null
+    struct: true
+_metadata:
+  desc: null
+  value: 'ContainerMetadata(ref_type=typing.Any, object_type=<class ''dict''>, optional=True,
+    key=None, flags={''struct'': True}, flags_root=False, resolver_cache=defaultdict(<class
+    ''dict''>, {''now'': {(''%Y-%m-%d'',): ''2022-12-02'', (''%H-%M-%S'',): ''16-58-05''}}),
+    key_type=typing.Any, element_type=typing.Any)'
+_parent:
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1669993087.797265
+    t:
+      1:
+      - 1
+      - 50
+      - 55
+      2:
+      - 1
+      - 50
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.8.10
+      5: 0.13.2
+      8:
+      - 5

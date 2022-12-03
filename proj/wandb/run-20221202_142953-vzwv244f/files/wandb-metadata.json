@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-91-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-12-02T12:29:54.213367",
+    "startedAt": "2022-12-02T12:29:53.590477",
+    "docker": null,
+    "cpu_count": 14,
+    "cuda": null,
+    "args": [
+        "env_name=bipedal"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "kosh",
+    "username": "montecc1",
+    "executable": "/usr/bin/python3"
+}

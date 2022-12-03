@@ -10,17 +10,9 @@ GYM_TASKS = {
     'Hopper-v4'
 }
 
-ALGOS = {
-    "Actor_Critic", 
-    "Reinforce", 
-    "DDPG", 
-    "DQN", 
-    "AlphaZero", 
-    "PETS", 
-}
 
 def create_env(config_file_name, seed):
-    config = yaml.load(open(f'./cfg/{config_file_name}.yaml', 'r'),  Loader=yaml.Loader)
+    config = yaml.load(open(f'./configs/{config_file_name}.yaml', 'r'),  Loader=yaml.Loader)
 
     if config['env_name'] in GYM_TASKS:
         env_kwargs = config['env_parameters']
